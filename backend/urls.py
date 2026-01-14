@@ -25,5 +25,5 @@ urlpatterns = [
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('users.urls')),  # ya existente para autenticación
-    #path('api/', include('movies.urls')), # nueva ruta para películas
+    path('api/', include('productos.urls')), # nueva ruta para películas
 ]
